@@ -1,0 +1,75 @@
+/*** HOME PAGE ***/
+@font-face{
+	font-family: 'Questa';
+	src: url('../fonts/questa.otf') format('opentype');
+}
+
+.conatiner {
+	width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Questa, serif;
+}
+
+header{
+    height: 800px;
+    background: url('img/main-image.jpg');
+    background-size: cover;
+    border-bottom: 3px solid #d7e1c3 ;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #d7e1c3;
+    float: left;
+    margin-top: 40px;
+    margin-left: 29px;
+}
+header nav {
+    float: right;
+    padding: 23px 0;
+    margin-top: 29px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    font-size: 18px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    color: #1a2a16;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header h2 {
+    color: #e9e6e1;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 325px;
+    padding-left: 10px;
+}
+
+header span {
+    color: #d7e1c3;
+}
+
+footer {
+    color: #1a2a16;
+    font-size: 16px;  
+    text-align: center;
+}
+
+footer span {
+    color: pink;
+}
+
+/*** ABOUT PAGE ***/
