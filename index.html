@@ -1,27 +1,77 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <title>Portfolio</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <header>
-                <h1>Rosany Espinal</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about/index.html">About</a></li>
-                        <li><a href="work/index.html">Work</a></li>
-                        <li><a href="contact/index.html">Contact</a></li>
-                    </ul>
-                </nav>
-                <h2><span><em>Hi,</em></span> I'm a developer<br>in progress.</h2>
-            </header>
-            <footer>
-                <p><em>Made with </em><span>&hearts;</span></p>
+        
+        <header>
+            <div class="full-width">
+                <div class="half-width">
+                    <h1>Rosany Espinal</h1>
+                </div>
+                <div class="half-width">
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h2><span>Hi,</span> I'm a developer that loves clean &amp; elegant code.</h2>
+            </div> 
+        </header>
+        
+        <main>
+            <section id="about">
+                <div class="full-width">
+                    <h2>A little bit about me.</h2>
+                    <div class="half-width">
+                        <p>Over 10 years ago, my family and I packed up our things and moved to Atlanta. Here, I gradutated with a degree in Economics and have worked in the semi-corporate world. About a year ago I started learning how to code.</p>
+                    </div>
+                    <div class="half-width">
+                        <p> About a year ago I started learning how to code. This journey has been an exciting one. Every day I am able to create and learn something new as a developer. </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="work">
+                <div class="full-width">
+                    <div class="third-width">
+                        <h3>Project One</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                    <div class="third-width">
+                        <h3>Project Two</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                    <div class="third-width">
+                        <h3>Project Three</h3>
+                        <p>Coming Soon!</p>
+                    </div>
+                </div>
+            </section>
+        
+            <footer id="contact">
+                <div class="full-width">
+                    <div class="half-width">
+                        <img id="contact-img" src="img/notebooks.jpg" alt="notebooks"/>
+                    </div>
+                    <div class="half-width" id="contact-info">
+                        <h2>Like what you see?</h2>
+                        <h3 id="email-header">Let's meet for a cup of coffee.</h3>
+                        <a href="mailto:hi@jubileeausten.com"><img id="envelope" src="img/envelope-icon.png" alt="envelope icon"/></a>
+                        <a href="mailto:hi@jubileeausten.com">rosanyespinal [@] gmail.com</a>
+                    </div>
+                </div>
             </footer>
-        </div>
+            
+        </main>
+    
     </body>
 </html>
